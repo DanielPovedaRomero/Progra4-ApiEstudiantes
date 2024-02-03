@@ -30,3 +30,4 @@ D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\obj\Debug
 D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\obj\Debug\net6.0\ProgramacionIVEstudiantes.pdb
 D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\obj\Debug\net6.0\ProgramacionIVEstudiantes.genruntimeconfig.cache
 D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\obj\Debug\net6.0\ref\ProgramacionIVEstudiantes.dll
+D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\obj\Debug\net6.0\ProgramacionIVEstudiantes.sourcelink.json

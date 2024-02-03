@@ -88,6 +88,43 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "ProgramacionIV.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ProgramacionIV.DAL": "1.0.0",
+          "ProgramacionIV.ETL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProgramacionIV.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProgramacionIV.BLL.dll": {}
+        }
+      },
+      "ProgramacionIV.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ProgramacionIV.ETL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProgramacionIV.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProgramacionIV.DAL.dll": {}
+        }
+      },
+      "ProgramacionIV.ETL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ProgramacionIV.ETL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProgramacionIV.ETL.dll": {}
+        }
       }
     }
   },
@@ -429,10 +466,26 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "ProgramacionIV.BLL/1.0.0": {
+      "type": "project",
+      "path": "../Programacion4.BLL/ProgramacionIV.BLL.csproj",
+      "msbuildProject": "../Programacion4.BLL/ProgramacionIV.BLL.csproj"
+    },
+    "ProgramacionIV.DAL/1.0.0": {
+      "type": "project",
+      "path": "../ProgramacionIV.DAL/ProgramacionIV.DAL.csproj",
+      "msbuildProject": "../ProgramacionIV.DAL/ProgramacionIV.DAL.csproj"
+    },
+    "ProgramacionIV.ETL/1.0.0": {
+      "type": "project",
+      "path": "../ProgramacionIV.ETL/ProgramacionIV.ETL.csproj",
+      "msbuildProject": "../ProgramacionIV.ETL/ProgramacionIV.ETL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ProgramacionIV.BLL >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -468,7 +521,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\UAM\\Progra4\\Api\\ProgramacionIVEstudiantes\\Programacion4.BLL\\ProgramacionIV.BLL.csproj": {
+              "projectPath": "D:\\UAM\\Progra4\\Api\\ProgramacionIVEstudiantes\\Programacion4.BLL\\ProgramacionIV.BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
