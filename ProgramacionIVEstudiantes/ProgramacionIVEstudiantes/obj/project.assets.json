@@ -93,7 +93,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "ProgramacionIV.DAL": "1.0.0",
           "ProgramacionIV.ETL": "1.0.0"
         },
         "compile": {
@@ -101,19 +100,6 @@
         },
         "runtime": {
           "bin/placeholder/ProgramacionIV.BLL.dll": {}
-        }
-      },
-      "ProgramacionIV.DAL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "ProgramacionIV.ETL": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ProgramacionIV.DAL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ProgramacionIV.DAL.dll": {}
         }
       },
       "ProgramacionIV.ETL/1.0.0": {
@@ -471,11 +457,6 @@
       "type": "project",
       "path": "../Programacion4.BLL/ProgramacionIV.BLL.csproj",
       "msbuildProject": "../Programacion4.BLL/ProgramacionIV.BLL.csproj"
-    },
-    "ProgramacionIV.DAL/1.0.0": {
-      "type": "project",
-      "path": "../ProgramacionIV.DAL/ProgramacionIV.DAL.csproj",
-      "msbuildProject": "../ProgramacionIV.DAL/ProgramacionIV.DAL.csproj"
     },
     "ProgramacionIV.ETL/1.0.0": {
       "type": "project",
