@@ -2,6 +2,7 @@
 using ProgramacionIV.BLL;
 using ProgramacionIV.BLL.Interfaces;
 using ProgramacionIV.ETL;
+using System.Diagnostics;
 
 namespace ProgramacionIVEstudiantes.Controllers
 {
@@ -28,7 +29,7 @@ namespace ProgramacionIVEstudiantes.Controllers
 
         [HttpPost]
         [Route("ConsultarEstudiante")]
-        public IActionResult ConsultarEstudiante(Estudiante estudiante)
+        public IActionResult ConsultarEstudiante(ProgramacionIV.ETL.Entrada.ConsultarEstudiante estudiante)
         {
             var respuesta = oLnEstudiante.ConsultarEstudiante(estudiante);
             return Ok(respuesta);

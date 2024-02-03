@@ -1,5 +1,6 @@
 ﻿using ProgramacionIV.BLL.Interfaces;
 using ProgramacionIV.ETL;
+using System.Diagnostics;
 
 namespace ProgramacionIV.BLL
 {
@@ -17,7 +18,7 @@ namespace ProgramacionIV.BLL
             return adEstudiante.InsertarEstudiante(estudiante);
         }
 
-        public Estudiante ConsultarEstudiante(Estudiante estudiante) 
+        public ETL.Salida.ConsultarEstudiante ConsultarEstudiante(ETL.Entrada.ConsultarEstudiante estudiante)
         {
             return adEstudiante.ConsultarEstudiante(estudiante);
         }

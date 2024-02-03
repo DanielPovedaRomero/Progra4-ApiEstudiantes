@@ -5,9 +5,15 @@ namespace ProgramacionIV.DAL
 {
     public class AdEstudiante : IAdEstudiante
     {
-        public Estudiante ConsultarEstudiante(Estudiante estudiante)
+        public ETL.Salida.ConsultarEstudiante ConsultarEstudiante(ETL.Entrada.ConsultarEstudiante estudiante)
         {
-            return estudiante;
+            var objeto = new ETL.Salida.ConsultarEstudiante();
+            objeto.nombre = "Daniel";
+            objeto.apellido1 = "Poveda";
+            objeto.apellido2 = "Romero";
+            objeto.edad = 26;
+            objeto.correo = "correo@gmail.com";
+            return objeto;
         }
 
         public int InsertarEstudiante(Estudiante estudiante)
