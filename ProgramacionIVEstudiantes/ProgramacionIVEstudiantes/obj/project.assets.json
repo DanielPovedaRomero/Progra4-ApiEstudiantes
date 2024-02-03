@@ -102,6 +102,20 @@
           "bin/placeholder/ProgramacionIV.BLL.dll": {}
         }
       },
+      "ProgramacionIV.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ProgramacionIV.BLL": "1.0.0",
+          "ProgramacionIV.ETL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProgramacionIV.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProgramacionIV.DAL.dll": {}
+        }
+      },
       "ProgramacionIV.ETL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -458,6 +472,11 @@
       "path": "../Programacion4.BLL/ProgramacionIV.BLL.csproj",
       "msbuildProject": "../Programacion4.BLL/ProgramacionIV.BLL.csproj"
     },
+    "ProgramacionIV.DAL/1.0.0": {
+      "type": "project",
+      "path": "../ProgramacionIV.DAL/ProgramacionIV.DAL.csproj",
+      "msbuildProject": "../ProgramacionIV.DAL/ProgramacionIV.DAL.csproj"
+    },
     "ProgramacionIV.ETL/1.0.0": {
       "type": "project",
       "path": "../ProgramacionIV.ETL/ProgramacionIV.ETL.csproj",
@@ -467,6 +486,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "ProgramacionIV.BLL >= 1.0.0",
+      "ProgramacionIV.DAL >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -505,6 +525,9 @@
           "projectReferences": {
             "D:\\UAM\\Progra4\\Api\\ProgramacionIVEstudiantes\\Programacion4.BLL\\ProgramacionIV.BLL.csproj": {
               "projectPath": "D:\\UAM\\Progra4\\Api\\ProgramacionIVEstudiantes\\Programacion4.BLL\\ProgramacionIV.BLL.csproj"
+            },
+            "D:\\UAM\\Progra4\\Api\\ProgramacionIVEstudiantes\\ProgramacionIV.DAL\\ProgramacionIV.DAL.csproj": {
+              "projectPath": "D:\\UAM\\Progra4\\Api\\ProgramacionIVEstudiantes\\ProgramacionIV.DAL\\ProgramacionIV.DAL.csproj"
             }
           }
         }

@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Programacion4.BLL\ProgramacionIV.BLL.csproj" />
+    <ProjectReference Include="..\ProgramacionIV.DAL\ProgramacionIV.DAL.csproj" />
   </ItemGroup>
 
 </Project>

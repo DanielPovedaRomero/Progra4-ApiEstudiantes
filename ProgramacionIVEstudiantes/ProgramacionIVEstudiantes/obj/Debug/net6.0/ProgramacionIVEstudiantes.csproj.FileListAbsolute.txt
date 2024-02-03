@@ -31,3 +31,9 @@ D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\obj\Debug
 D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\obj\Debug\net6.0\ProgramacionIVEstudiantes.genruntimeconfig.cache
 D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\obj\Debug\net6.0\ref\ProgramacionIVEstudiantes.dll
 D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\obj\Debug\net6.0\ProgramacionIVEstudiantes.sourcelink.json
+D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\bin\Debug\net6.0\ProgramacionIV.BLL.dll
+D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\bin\Debug\net6.0\ProgramacionIV.DAL.dll
+D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\bin\Debug\net6.0\ProgramacionIV.ETL.dll
+D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\bin\Debug\net6.0\ProgramacionIV.BLL.pdb
+D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\bin\Debug\net6.0\ProgramacionIV.DAL.pdb
+D:\UAM\Progra4\Api\ProgramacionIVEstudiantes\ProgramacionIVEstudiantes\bin\Debug\net6.0\ProgramacionIV.ETL.pdb
