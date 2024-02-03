@@ -7,7 +7,7 @@ namespace ProgramacionIVEstudiantes.Controllers
 {
     [ApiController]
     [Route("api/v1/[controller]")]
-    [Produces("aplication/json")]
+    [Produces("application/json")]
     public class EstudianteController : Controller
     {
 
@@ -20,9 +20,17 @@ namespace ProgramacionIVEstudiantes.Controllers
 
         [HttpPost]
         [Route("InsertarEstudiante")]
-        public IActionResult InsertarEstudiante(Estudiante estudiante) 
+        public IActionResult InsertarEstudiante(Estudiante estudiante)
         {
-            int respuesta = oLnEstudiante.InsertarEstudiante(estudiante);
+            var respuesta = oLnEstudiante.InsertarEstudiante(estudiante);
+            return Ok(respuesta);
+        }
+
+        [HttpPost]
+        [Route("ConsultarEstudiante")]
+        public IActionResult ConsultarEstudiante(Estudiante estudiante)
+        {
+            var respuesta = oLnEstudiante.ConsultarEstudiante(estudiante);
             return Ok(respuesta);
         }
     }

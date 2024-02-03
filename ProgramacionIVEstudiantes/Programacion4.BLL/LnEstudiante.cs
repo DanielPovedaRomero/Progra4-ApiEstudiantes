@@ -16,5 +16,10 @@ namespace ProgramacionIV.BLL
         {
             return adEstudiante.InsertarEstudiante(estudiante);
         }
+
+        public Estudiante ConsultarEstudiante(Estudiante estudiante) 
+        {
+            return adEstudiante.ConsultarEstudiante(estudiante);
+        }
     }
 }

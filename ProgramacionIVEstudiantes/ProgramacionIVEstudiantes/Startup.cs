@@ -19,7 +19,7 @@ namespace ProgramacionIVEstudiantes
             services.AddControllers();
             services.AddSwaggerGen(x =>
             {
-                x.SwaggerDoc("V1", new OpenApiInfo { Title = "Api.Estudiante", Version = "v1"});
+                x.SwaggerDoc("v1", new OpenApiInfo { Title = "Api.Estudiante", Version = "v1"});
             });
         }
 
@@ -27,7 +27,7 @@ namespace ProgramacionIVEstudiantes
         { 
             app.UseDeveloperExceptionPage();
             app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("swagger/v1/swagger.json", "Rest.ConsumsApi V1"));
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api.Estudiante V1"));
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthentication();
